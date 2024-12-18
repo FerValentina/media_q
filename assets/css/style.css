@@ -28,22 +28,37 @@ section{
     background-color: rgb(114, 112, 112);
     /* text-align: left; */
     /* padding-top: 1em; */
-    /* width: 100px; */
+    height: 80%;
        
 }
 main{
     grid-area: main;
     background-color: white;
     color: black;
-
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    
 }
 footer{
     grid-area: footer;
     background-color: rgb(145, 2, 2);
     color: white;
 }
+.card{
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 400px;   
+    box-shadow: 2px 2px 5px 2px black;   
+
+}
 img{
-    width: 250px;
-    height: 250px;
-    background-color: white;
+    width: 90%;
+    height: 60%;     
+    /* background-color: #F3F3F3;     */
+    /* padding-top: 4em; */
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    
 }
