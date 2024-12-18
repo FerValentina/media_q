@@ -51,16 +51,25 @@ section{
 main{
     grid-area: main;
     background-color: white;
-    color: black;
-    display: flex;
+    color: black;  
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 2em;
     justify-content: center;    
     align-items: center;
+    margin-top: 1.5em;
+
     
 }
+
 footer{
     grid-area: footer;
     background-color: rgb(145, 2, 2);
     color: white;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 10px;
 }
 .card{
     background-color: #F3F3F3;
@@ -71,7 +80,7 @@ footer{
 }
 .fotocar{
     width: 90%;
-    height: 60%;     
+    height: 50%;     
     /* background-color: #F3F3F3;     */
     /* padding-top: 4em; */
     margin-top: 1em;
@@ -101,7 +110,7 @@ footer{
     margin: 0.5em;
 
 }
-.boxbuscador{
+/* .boxbuscador{
     background-color: white;
     padding: 0.5em;
     margin-left: 3em;
@@ -109,14 +118,17 @@ footer{
     margin-bottom: 0.5em;
     border-radius: 0.5em;
     text-align: left;
-}
+} */
 #ordenar{
     width: 70%;
     background-color: white;
     padding: 0.5em;
     margin-left: 3em;
     margin-right: 3em;
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
     border-radius: 0.5em;
     text-align: left;
+}
+.iconf{
+    width: 10%;
 }
