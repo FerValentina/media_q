@@ -110,3 +110,13 @@ footer{
     border-radius: 0.5em;
     text-align: left;
 }
+#ordenar{
+    width: 70%;
+    background-color: white;
+    padding: 0.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+    text-align: left;
+}
