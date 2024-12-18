@@ -62,3 +62,15 @@ img{
     border-radius: 1em;
     
 }
+.boton{
+    /* width: 5em;
+    height: 3em; */
+    background-color: rgb(204, 17, 17);
+    color: white;
+    padding: 1em;
+    margin: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: 2em;
+
+}
