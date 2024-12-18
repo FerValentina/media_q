@@ -91,3 +91,22 @@ footer{
     border-radius: 2em;
 
 }
+.boton:hover{
+    background-color: rgb(148, 9, 9);
+    font-size: 102%;
+}
+
+.buscador{
+    color: white;
+    margin: 0.5em;
+
+}
+.boxbuscador{
+    background-color: white;
+    padding: 0.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+    text-align: left;
+}
