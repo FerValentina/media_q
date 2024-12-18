@@ -16,6 +16,7 @@ body{
     min-height: 100vh;
     text-align: center;
 }
+ 
 nav{
     grid-area: navbar;
     background-color: rgb(204, 17, 17);
@@ -25,9 +26,19 @@ nav{
     gap: 1em;
     /* justify-content: center; */
     align-items: center;
+    
 }
+h2{
+    font-family: "Racing Sans One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
 .logo{
     width: 25%;
+    background-color: rgba(53, 1, 1, 0.011);
+    
 }
 section{
     grid-area: section;
