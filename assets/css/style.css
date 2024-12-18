@@ -20,8 +20,14 @@ nav{
     grid-area: navbar;
     background-color: rgb(204, 17, 17);
     color: white;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em;    
+    display: flex ;
+    gap: 1em;
+    /* justify-content: center; */
+    align-items: center;
+}
+.logo{
+    width: 25%;
 }
 section{
     grid-area: section;
@@ -52,7 +58,7 @@ footer{
     box-shadow: 2px 2px 5px 2px black;   
 
 }
-img{
+.fotocar{
     width: 90%;
     height: 60%;     
     /* background-color: #F3F3F3;     */
